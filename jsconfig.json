@@ -2,7 +2,7 @@
     "compilerOptions": {
         "baseUrl": "./",
         "paths": {
-            "@inclues/*": ["_includes/*"],
+            "@includes/*": ["_includes/*"],
             "@layouts/*": ["_layouts/*"],
             "@posts/*": ["_posts/*"],
             "@api": ["api/index"]
