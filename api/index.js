@@ -12,7 +12,8 @@ export async function getAllPosts(){
         let meta = matter(content.default);
         posts.push({
             slug: post.replace('.md', ''),
-            title: meta.data.title
+            title: meta.data.title,
+            tldr: meta.data.tldr || ''
         })
     }
     return posts;
