@@ -7,7 +7,6 @@ export async function getAllPosts(){
     const posts = []
     for(const key of context.keys()) {
         let post = key.slice(2);
-        console.log(key, post)
         let content = await import(`../_posts/${post}`);
         let meta = matter(content.default);
         posts.push({

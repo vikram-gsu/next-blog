@@ -5,6 +5,7 @@ import Card from "@common/Card";
 
 const Li = styled.li`
   list-style: none;
+  cursor: pointer;
 `;
 export default function Blog(props) {
   return (
