@@ -1,17 +1,33 @@
 import Head from "next/head";
 import Header from "@includes/header";
 import Footer from "@includes/footer";
+import styled from "styled-components";
+
+const MainStyles = styled.main`
+  display: grid;
+  grid: [row1-start] "header header header" 5em [row1-end]
+        [row1-start] "title . ." 5em [row1-end]
+        [row2-start] ". content ."  100vh [row2-end]
+        [row3-start] "footer footer footer" 10em [row3-end]/
+        10% 80% 10%;
+`;
+
+const ContentStyles = styled.div`
+  grid-area: content;
+`;
 
 export default function DefaultLayout(props) {
   return (
-    <main>
+    <MainStyles>
       <Head>
         <title>{props.title}</title>
         <meta name="description" content={props.description} />
       </Head>
       <Header />
-      {props.children}
+      <ContentStyles>
+        {props.children}
+      </ContentStyles>
       <Footer />
-    </main>
+    </MainStyles>
   );
 }

@@ -1,6 +1,6 @@
 ---
     title: another test post
-    description: well, testing second post
+    tldr: Another test tldr
 ---
 
 # Test 2

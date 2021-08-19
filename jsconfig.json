@@ -3,6 +3,7 @@
         "baseUrl": "./",
         "paths": {
             "@includes/*": ["_includes/*"],
+            "@common/*": ["_common/*"],
             "@layouts/*": ["_layouts/*"],
             "@posts/*": ["_posts/*"],
             "@api": ["api/index"]
