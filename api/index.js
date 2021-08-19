@@ -12,7 +12,9 @@ export async function getAllPosts(){
         posts.push({
             slug: post.replace('.md', ''),
             title: meta.data.title,
-            tldr: meta.data.tldr || ''
+            tldr: meta.data.tldr || '',
+            tag: meta.data.tag,
+            date: meta.data.date,
         })
     }
     return posts;
@@ -24,6 +26,7 @@ export async function getPostBySlug(slug){
     const blogContent = marked(meta.content);
     return {
         title: meta.data.title,
+        date: meta.data.date,
         content: blogContent
     }
 }

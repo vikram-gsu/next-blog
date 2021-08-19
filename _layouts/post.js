@@ -2,15 +2,16 @@ import Head from "next/head";
 import Link from "next/link";
 import DefaultLayout from "@layouts/default";
 
-export default function PostLayout(props) {
+export default function PostLayout({title, date, content}) {
   return (
     <DefaultLayout>
       <Head>
-        <title>{props.title}</title>
+        <title>{title}</title>
       </Head>
       <article>
-        <h1>{props.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: props.content }} />
+        <h1>{title}</h1>
+        <p>{date}</p>
+        <div dangerouslySetInnerHTML={{ __html: content }} />
         <div>
           <Link href="/">
             <a>Home</a>

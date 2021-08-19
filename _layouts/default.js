@@ -16,16 +16,16 @@ const ContentStyles = styled.div`
   grid-area: content;
 `;
 
-export default function DefaultLayout(props) {
+export default function DefaultLayout({title, description, children}) {
   return (
     <MainStyles>
       <Head>
-        <title>{props.title}</title>
-        <meta name="description" content={props.description} />
+        <title>{title}</title>
+        <meta name="description" content={description} />
       </Head>
       <Header />
       <ContentStyles>
-        {props.children}
+        {children}
       </ContentStyles>
       <Footer />
     </MainStyles>

@@ -1,6 +1,7 @@
 ---
 title: Things we do
 tldr: A thought flow about life, decisions, actions and maybe consequences?
+tag: General
 date: 08/16/2021
 ---
 
