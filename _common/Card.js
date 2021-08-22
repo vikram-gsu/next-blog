@@ -12,12 +12,13 @@ const CardStyles = styled.div`
   transition: 0.1s ease-in;
 `;
 
-export default function Card({ title, tldr, slug }) {
+export default function Card({ title, tldr, slug, date }) {
   return (
     <CardStyles>
       <Link href={`/posts/${slug}`}>
         <div>
           <h2>{title}</h2>
+          <p>{date}</p>
           <p>{tldr}</p>
         </div>
       </Link>
