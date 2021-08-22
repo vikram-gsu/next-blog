@@ -5,11 +5,11 @@ import styled from "styled-components";
 
 const MainStyles = styled.main`
   display: grid;
-  grid: [row1-start] "header header header" 5em [row1-end]
-        [row1-start] "title . ." 5em [row1-end]
-        [row2-start] ". content ."  100vh [row2-end]
-        [row3-start] "footer footer footer" 10em [row3-end]/
-        10% 80% 10%;
+  grid: [row1-start] "header header  header" 5em [row1-end]
+        [row1-start] "title  ......  ......" 5em [row1-end]
+        [row2-start] "...... content ....."  100vh [row2-end]
+        [row3-start] "footer footer  footer" 10em [row3-end]/
+        50% 30% 20%;
 `;
 
 const ContentStyles = styled.div`
