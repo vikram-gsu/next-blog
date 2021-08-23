@@ -25,10 +25,15 @@ ${nprogressCSS}
 const theme = {
   colors: {
     primary: '#0070f3',
+    accent: 'var(--sunglow)',
+    accentText: 'var(--rich-black-fogra-39)'
   },
-}
+  fonts: {
+    headings: 'Playfair Display',
+    body: 'Source Sans Pro'
 
-// NProgress.configure({ showSpinner: publicRuntimeConfig.NProgressShowSpinner });
+  }
+}
 
 Router.onRouteChangeStart = () => {
   // console.log('onRouteChangeStart triggered');
