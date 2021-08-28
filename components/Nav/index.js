@@ -22,7 +22,7 @@ const LogoStyles = styled.div`
 function Nav(){
     return <NavStyles>
         <MenuOptions></MenuOptions>
-        <LogoStyles>Vikram Pareddy</LogoStyles>
+        {/* <LogoStyles>Vikram Pareddy</LogoStyles> */}
     </NavStyles>
 }
 

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
 import Nav from "../components/Nav";
+import Logo from '../components/Logo';
 
 const BackgroundStyles = styled.div`
   position: fixed;
@@ -18,6 +19,7 @@ function Home() {
   return (
     <HomeStyles>
       <BackgroundStyles>
+      
         <Image
           alt="Splash page"
           src="/splash.jpg"
@@ -25,8 +27,9 @@ function Home() {
           objectFit="cover"
           quality={100}
         />
-        Home
+        
       </BackgroundStyles>
+      <Logo />
       <Nav />
     </HomeStyles>
   );
