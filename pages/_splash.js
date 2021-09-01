@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
 import Nav from "../components/Nav";
-import Logo from '../components/SplashLogo';
+import Logo from '../components/Logo';
 
 const BackgroundStyles = styled.div`
   position: fixed;
@@ -13,8 +13,7 @@ const BackgroundStyles = styled.div`
 
 const HomeStyles = styled.div`
     position: relative;
-    height: 100vh;
-  width: 100vw;
+
 `;
 function Home() {
   return (
@@ -23,7 +22,7 @@ function Home() {
       
         <Image
           alt="Splash page"
-          src="/images/skater.jpg"
+          src="/images/splash.jpg"
           layout="fill"
           objectFit="cover"
           quality={100}

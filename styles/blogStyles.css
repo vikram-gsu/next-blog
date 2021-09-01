@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Source+Sans+Pro:wght@300&display=swap');
-
+@import url("https://use.typekit.net/pvv8tee.css");
 :root {
     --rich-black-fogra-39: #080708ff;
     --blue-crayola: #3772ffff;
     --rose-madder: #df2935ff;
     --sunglow: #fdca40ff;
     --platinum: #e6e8e6ff;
+
+    --display-font: 'Playfair Display', serif;
+    --body-font:  aktiv-grotesk, sans-serif;
+    --text-font: 'Source Sans Pro', sans-serif;
 
 }

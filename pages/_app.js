@@ -14,9 +14,10 @@ ${nprogressCSS}
     padding: 0;
     box-sizing: border-box;
     font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-    h1,h2,h3 {
-      font-family: 'Playfair Display', serif;
+    font-family: var(--text-font);
+    
+    h1,h2,h3,h4,h5 {
+      font-family: var(--display-font);
     }
     
   }

@@ -1,29 +1,55 @@
-import styled from 'styled-components';
-import MenuOptions from "./MenuOptions";
-
+import styled from "styled-components";
+import Link from 'next/link';
 
 const NavStyles = styled.div`
-    color: ${props => props.theme.colors.accent};
-    
+  color: #fff;
+  width: 100%;
+  background: #000;
+  opacity: 0.5;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  position: absolute;
+  top: 85vh;
+  left: 0;
+  font-family: var(--text-font);
+  font-weight: 300;
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  li {
+    list-style: none;
+    padding: 0 1em;
+    a {
+        text-decoration: none;
+        color: #fff;
+        transition: border 0.5s, padding 0.5s;
+        :hover {
+            color: ${props => props.theme.colors.accent};
+            font-style: normal;
+            border-bottom: 4px solid ${props => props.theme.colors.accent};
+            padding-bottom: 5px;
+        }
+    }
+  }
 `;
 
-const LogoStyles = styled.div`
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin: 0;
-    padding: 1em 1em 1em 3em;
-    font-size: 2em;
-    font-family: ${props => props.theme.fonts.headings};
-    color: ${props => props.theme.colors.accent};
-    /* background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 100%); */
-    writing-mode: vertical-rl;
-`;
-function Nav(){
-    return <NavStyles>
-        <MenuOptions></MenuOptions>
-        {/* <LogoStyles>Vikram Pareddy</LogoStyles> */}
+function Nav() {
+  return (
+    <NavStyles>
+      <ul>
+        <li><Link href="/projects">projects</Link></li>
+        <li><Link href="/blog">blog</Link></li>
+        <li><Link href="/about">about</Link></li>
+        <li><Link href="/contact">contact</Link></li>
+      </ul>
     </NavStyles>
+  );
 }
 
 export default Nav;

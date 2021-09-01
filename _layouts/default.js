@@ -14,6 +14,7 @@ const MainStyles = styled.main`
 
 const ContentStyles = styled.div`
   grid-area: content;
+  
 `;
 
 export default function DefaultLayout({title, description, children}) {

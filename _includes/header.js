@@ -30,9 +30,10 @@ export default function Header() {
       <Link href="/"><h1>Vikram Pareddy</h1></Link>
       <MenuItems>
 
-        <h3>Work</h3>
-        <h3>Blog</h3>
-        <h3>About</h3>
+        <div>projects</div>
+        <div>blog</div>
+        <div>about</div>
+        <div>contact</div>
       </MenuItems>
     </HeaderStyles>
   );

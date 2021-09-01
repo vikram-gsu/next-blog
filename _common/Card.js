@@ -18,7 +18,7 @@ export default function Card({ title, tldr, slug, date }) {
       <Link href={`/posts/${slug}`}>
         <div>
           <h2>{title}</h2>
-          <p>{date}</p>
+          <span>{date}</span>
           <p>{tldr}</p>
         </div>
       </Link>

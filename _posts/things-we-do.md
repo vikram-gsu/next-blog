@@ -5,8 +5,6 @@ tag: General
 date: 08/16/2021
 ---
 
-### Exploration/Action
-
 Exploration always motivated me, be it meeting people with different cultures, hikes, climbs or even food. I love those days when you wake up with excitement to do something. At one point it used to be more about interacting with people(more anxiety than excitement there), or playing something, or going on a trip(that was probably the most exciting thing!).
 
 A phase of my life was defined mostly by action, especially when I realized I had the resources to go after all that looked cool! But, action almost always was a direct consequence of certainty - about things in general as well as the path that was taken until then.
@@ -15,9 +13,7 @@ A phase of my life was defined mostly by action, especially when I realized I ha
 
 All that action created an aura of happiness, and social media reflects that immensely, but actions - travels, dives, hikes etc. if undertaken without really, truly empathizing with your body or with the people you meet can end up being a fleeting memory rather than a character enhancing truth.
 
-### Directed Action 
-
-While not everything has to be a 'character enhancing truth', a generally directed action is essential. 
+While not everything has to be a 'character enhancing truth', a generally directed course of action should probably work! 
 
 ### Time to reflect
 
